@@ -1,0 +1,59 @@
+ul {
+  margin: 0
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.App-header ul li {
+  padding: 15px;
+}
+
+.App-header .active {
+  font-weight: 900;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .field {
+  padding-bottom: 15px;
+}
+
+.form label {
+  display: block;
+}
+
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid #dedede 1px;
+}
